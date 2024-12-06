@@ -1,0 +1,127 @@
+{
+    "store": {
+        "test@test.com": [
+            {
+                "role": "user",
+                "content": "tôi đang cảm thấy rất phiền muộn dạo gần đây",
+                "additional_kwargs": {}
+            },
+            {
+                "role": "assistant",
+                "content": "Chào bạn! 😊 Tôi ở đây để giúp đỡ bạn. Nhiệm vụ của tôi là **hỗ trợ bạn trong việc giải quyết các vấn đề về sức khỏe tinh thần** và **giúp bạn trong việc học tập**. Nếu bạn đang cảm thấy phiền muộn, hãy chia sẻ thêm với tôi về những gì bạn đang trải qua. Tôi sẽ lắng nghe và cố gắng đưa ra những lời khuyên hữu ích nhất cho bạn.\n\nPhiền muộn có thể xuất phát từ nhiều nguyên nhân khác nhau như áp lực học tập, mối quan hệ xã hội, hoặc thậm chí là những thay đổi trong cuộc sống hàng ngày. Để hiểu rõ hơn về tình trạng của bạn, bạn có thể chia sẻ thêm về những triệu chứng hoặc tình huống cụ thể mà bạn đang gặp phải không? Điều này sẽ giúp tôi đưa ra những gợi ý phù hợp nhất cho bạn. 🌟\n\nHãy nhớ rằng, bạn không đơn độc trong cuộc hành trình này và tôi luôn sẵn sàng lắng nghe bạn.",
+                "additional_kwargs": {}
+            },
+            {
+                "role": "user",
+                "content": "hãy đánh giá sức khỏe cho tôi",
+                "additional_kwargs": {}
+            },
+            {
+                "role": "assistant",
+                "content": "Để có thể **đánh giá chính xác tình trạng sức khỏe tinh thần** của bạn, tôi cần thêm một số thông tin chi tiết hơn về những gì bạn đang trải qua. Bạn có thể chia sẻ thêm về các triệu chứng cụ thể mà bạn đang gặp phải không? Ví dụ như:\n\n- Bạn có thường xuyên cảm thấy **mệt mỏi** hoặc **thiếu năng lượng** không?\n- Bạn có gặp khó khăn trong việc **tập trung** hoặc **quyết định** không?\n- Bạn có cảm thấy **buồn bã** hoặc **mất hứng thú** với những hoạt động mà bạn từng yêu thích không?\n- Có điều gì đặc biệt xảy ra gần đây mà có thể ảnh hưởng đến tâm trạng của bạn không?\n\nNhững thông tin này sẽ giúp tôi hiểu rõ hơn về tình trạng của bạn và đưa ra những lời khuyên phù hợp. Nếu bạn cảm thấy thoải mái, hãy chia sẻ thêm nhé! 🌼",
+                "additional_kwargs": {}
+            },
+            {
+                "role": "user",
+                "content": "tôi đang cảm thấy trầm cảm do gặp bài tập khó",
+                "additional_kwargs": {}
+            },
+            {
+                "role": "assistant",
+                "content": null,
+                "additional_kwargs": {
+                    "tool_calls": [
+                        {
+                            "id": "call_bMcS3navliidkOh2OWuaWYAF",
+                            "function": {
+                                "arguments": "{\"input\": \"Tôi đang cảm thấy trầm cảm do gặp bài tập khó\"}",
+                                "name": "sktt"
+                            },
+                            "type": "function"
+                        },
+                        {
+                            "id": "call_HzMSA96EoeicM8EfwycqhDyF",
+                            "function": {
+                                "arguments": "{\"input\": \"trầm cảm\"}",
+                                "name": "sktt"
+                            },
+                            "type": "function"
+                        },
+                        {
+                            "id": "call_UK6UlsDSPQPUvsdgzAHimFOZ",
+                            "function": {
+                                "arguments": "{\"input\": \"áp lực học tập\"}",
+                                "name": "sktt"
+                            },
+                            "type": "function"
+                        }
+                    ]
+                }
+            },
+            {
+                "role": "tool",
+                "content": "Khi đối mặt với cảm giác trầm cảm do gặp bài tập khó, có một số cách bạn có thể thử để cải thiện tình hình. Đầu tiên, hãy thử chia nhỏ bài tập thành các phần nhỏ hơn và giải quyết từng phần một. Điều này có thể giúp giảm bớt cảm giác áp lực. Thứ hai, hãy tìm kiếm sự hỗ trợ từ bạn bè, giáo viên hoặc gia đình để có thêm góc nhìn và lời khuyên. Cuối cùng, hãy nhớ dành thời gian nghỉ ngơi và chăm sóc bản thân để duy trì sức khỏe tinh thần. Nếu cảm giác trầm cảm kéo dài, hãy cân nhắc tìm kiếm sự hỗ trợ từ chuyên gia tâm lý.",
+                "additional_kwargs": {
+                    "name": "sktt",
+                    "tool_call_id": "call_bMcS3navliidkOh2OWuaWYAF"
+                }
+            },
+            {
+                "role": "tool",
+                "content": "Trầm cảm là một rối loạn tâm thần được đặc trưng bởi các triệu chứng như khí sắc trầm cảm, cảm giác buồn bã, trống rỗng, hoặc mất hy vọng. Người mắc trầm cảm thường giảm sự quan tâm và thích thú đối với các hoạt động hàng ngày, có thể trải qua thay đổi trọng lượng cơ thể, rối loạn giấc ngủ, mệt mỏi, cảm giác vô dụng hoặc tội lỗi, khó khăn trong suy nghĩ và tập trung, và có ý nghĩ về cái chết. Các triệu chứng này phải gây suy giảm chức năng xã hội, nghề nghiệp hoặc các lĩnh vực quan trọng khác và không phải do tác động của chất hoặc bệnh lý cơ thể. Việc phân biệt giữa trầm cảm và phản ứng đau buồn do mất mát lớn cũng rất quan trọng trong chẩn đoán.",
+                "additional_kwargs": {
+                    "name": "sktt",
+                    "tool_call_id": "call_HzMSA96EoeicM8EfwycqhDyF"
+                }
+            },
+            {
+                "role": "tool",
+                "content": "Áp lực học tập là một trong những mối quan tâm lớn nhất của trẻ em và thanh thiếu niên tại Việt Nam. Họ cảm thấy áp lực từ việc phải duy trì thành tích học tập tốt, đặc biệt là trong các lớp học chọn lọc hoặc trường chuyên. Áp lực này không chỉ đến từ bản thân mà còn từ gia đình và bạn bè. Các em thường lo lắng về việc không đạt điểm cao, không làm tốt trong các môn học quan trọng như tiếng Anh và Toán, hoặc khi đối mặt với các kỳ thi quan trọng như vào đại học. Sự so sánh điểm số với bạn bè cũng làm gia tăng cảm giác căng thẳng và lo âu. Áp lực học tập còn dẫn đến các triệu chứng thể chất và cảm xúc tiêu cực như lo âu, buồn bã, và cảm giác không đủ khả năng.",
+                "additional_kwargs": {
+                    "name": "sktt",
+                    "tool_call_id": "call_UK6UlsDSPQPUvsdgzAHimFOZ"
+                }
+            },
+            {
+                "role": "assistant",
+                "content": "Cảm ơn bạn đã chia sẻ. Tôi hiểu rằng bạn đang cảm thấy **trầm cảm** do gặp phải bài tập khó, và điều này có thể gây ra **áp lực học tập** lớn. Dưới đây là một số thông tin và lời khuyên mà tôi hy vọng sẽ giúp ích cho bạn:\n\n### **Trầm cảm**\n_Trầm cảm_ là một rối loạn tâm thần đặc trưng bởi các triệu chứng như **khí sắc trầm cảm**, **cảm giác buồn bã**, **trống rỗng**, hoặc **mất hy vọng**. Người mắc trầm cảm thường giảm sự quan tâm và thích thú đối với các hoạt động hàng ngày, có thể trải qua thay đổi trọng lượng cơ thể, rối loạn giấc ngủ, mệt mỏi, cảm giác vô dụng hoặc tội lỗi, khó khăn trong suy nghĩ và tập trung, và có ý nghĩ về cái chết. Các triệu chứng này phải gây suy giảm chức năng xã hội, nghề nghiệp hoặc các lĩnh vực quan trọng khác và không phải do tác động của chất hoặc bệnh lý cơ thể.\n\n### **Áp lực học tập**\n_Áp lực học tập_ là một trong những mối quan tâm lớn nhất của trẻ em và thanh thiếu niên tại Việt Nam. Họ cảm thấy áp lực từ việc phải duy trì thành tích học tập tốt, đặc biệt là trong các lớp học chọn lọc hoặc trường chuyên. Áp lực này không chỉ đến từ bản thân mà còn từ gia đình và bạn bè. Các em thường lo lắng về việc không đạt điểm cao, không làm tốt trong các môn học quan trọng như tiếng Anh và Toán, hoặc khi đối mặt với các kỳ thi quan trọng như vào đại học. Sự so sánh điểm số với bạn bè cũng làm gia tăng cảm giác căng thẳng và lo âu.\n\n### **Lời khuyên**\n1. **Chia nhỏ bài tập**: Hãy thử chia nhỏ bài tập thành các phần nhỏ hơn và giải quyết từng phần một. Điều này có thể giúp giảm bớt cảm giác áp lực.\n2. **Tìm kiếm sự hỗ trợ**: Hãy tìm kiếm sự hỗ trợ từ bạn bè, giáo viên hoặc gia đình để có thêm góc nhìn và lời khuyên.\n3. **Dành thời gian nghỉ ngơi**: Hãy nhớ dành thời gian nghỉ ngơi và chăm sóc bản thân để duy trì sức khỏe tinh thần.\n4. **Tìm kiếm sự hỗ trợ chuyên gia**: Nếu cảm giác trầm cảm kéo dài, hãy cân nhắc tìm kiếm sự hỗ trợ từ chuyên gia tâm lý.\n\nNếu bạn cần thêm sự hỗ trợ hoặc có bất kỳ câu hỏi nào khác, đừng ngần ngại chia sẻ với tôi nhé! 🌟",
+                "additional_kwargs": {}
+            },
+            {
+                "role": "user",
+                "content": "hãy đánh giá tình trạng sức khỏe cho tôi nha",
+                "additional_kwargs": {}
+            },
+            {
+                "role": "assistant",
+                "content": null,
+                "additional_kwargs": {
+                    "tool_calls": [
+                        {
+                            "id": "call_gxsAA8qbGI179EXOXdl1KRy4",
+                            "function": {
+                                "arguments": "{\"score\":\"trung bình\",\"content\":\"Người dùng đang cảm thấy trầm cảm do gặp bài tập khó, gây ra áp lực học tập. Các triệu chứng bao gồm cảm giác buồn bã, trống rỗng, và mất hy vọng. Người dùng cần tìm kiếm sự hỗ trợ từ bạn bè, giáo viên, hoặc chuyên gia tâm lý nếu cần thiết.\",\"total_guess\":\"Người dùng có thể đang trải qua một giai đoạn trầm cảm nhẹ do áp lực học tập. Cần chú ý đến việc quản lý thời gian và tìm kiếm sự hỗ trợ từ người thân và bạn bè.\",\"username\":\"test@test.com\"}",
+                                "name": "save_score"
+                            },
+                            "type": "function"
+                        }
+                    ]
+                }
+            },
+            {
+                "role": "tool",
+                "content": "None",
+                "additional_kwargs": {
+                    "name": "save_score",
+                    "tool_call_id": "call_gxsAA8qbGI179EXOXdl1KRy4"
+                }
+            },
+            {
+                "role": "assistant",
+                "content": "Tôi đã đánh giá tình trạng sức khỏe tinh thần của bạn là **trung bình**. Điều này có nghĩa là bạn đang trải qua một số khó khăn, nhưng vẫn có thể cải thiện được với sự hỗ trợ và thay đổi phù hợp. Dưới đây là một số điểm quan trọng từ đánh giá của tôi:\n\n- **Triệu chứng**: Bạn đang cảm thấy **trầm cảm** do gặp bài tập khó, dẫn đến **áp lực học tập**. Các triệu chứng bao gồm cảm giác **buồn bã**, **trống rỗng**, và **mất hy vọng**.\n- **Lời khuyên**: Hãy tìm kiếm sự hỗ trợ từ bạn bè, giáo viên, hoặc gia đình. Đừng ngần ngại chia sẻ cảm xúc của mình với những người bạn tin tưởng. Nếu cảm giác trầm cảm kéo dài, hãy cân nhắc tìm kiếm sự hỗ trợ từ chuyên gia tâm lý.\n\nHãy nhớ rằng, bạn không đơn độc và có rất nhiều người sẵn sàng giúp đỡ bạn. Nếu bạn cần thêm sự hỗ trợ hoặc có bất kỳ câu hỏi nào khác, đừng ngần ngại chia sẻ với tôi nhé! 🌼",
+                "additional_kwargs": {}
+            }
+        ]
+    },
+    "class_name": "SimpleChatStore"
+}
