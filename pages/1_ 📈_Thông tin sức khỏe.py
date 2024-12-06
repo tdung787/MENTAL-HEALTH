@@ -125,7 +125,9 @@ def main():
             "Content": "Nội dung",
             "Total guess": "Đánh giá và lời khuyên"
         })
-        df_renamed = df_renamed.drop(columns=["Score_num"])
+        if "Score_num" in df_renamed.columns:
+            df_renamed = df_renamed.drop(columns=["Score_num"])
+            
         st.markdown("## Bảng dữ liệu chi tiết")
         st.table(df_renamed)   
     else:

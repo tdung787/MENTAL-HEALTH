@@ -7,6 +7,14 @@ usernames:
     job: ''
     name: ''
     password: 5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5
+  test2@test.com:
+    address: ''
+    age: 5
+    email: test2@test.com
+    gender: Nam
+    job: ''
+    name: test2@test.com
+    password: 7599502b735425943fffc167b4c9cfb072d028c109ee07501c8711a4fe0e12e7
   test@test.com:
     address: test@test.com
     age: 5
